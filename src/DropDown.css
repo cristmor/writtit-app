@@ -1,0 +1,13 @@
+.drop-down-menu {
+	display: flex;
+	flex-direction: column;
+}
+
+.drop-down-items {
+	display: none;
+	flex-direction: column;
+}
+
+.drop-down-title {
+	color: hsl(0, 0%, 28%);
+}
