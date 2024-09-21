@@ -1,0 +1,68 @@
+.popular {
+	min-width: 300px;
+	padding: 8px 16px;
+	margin: 15px auto auto 0px;
+	border-radius: 8px;
+	background-color: black;
+}
+
+.popular-title {
+	font-size: 0.8rem;
+	color: hsl(0, 0%, 60%);
+}
+
+.popular-items {
+	display: flex;
+	flex-direction: column;
+
+	width: 98%;
+	margin: 20px auto;
+
+	user-select: none;
+}
+
+.popular-item {
+	display: flex;
+	flex-direction: column;
+
+	margin: 0;
+	padding: 10px 16px;
+	transition: background-color 0.25s ease;
+}
+
+.popular-item:hover {
+	cursor: pointer;
+	border-radius: 6px;
+	background-color: hsl(0, 0%, 15%);
+}
+
+.popular-item:active{
+	background-color: hsl(0, 0%, 20%);
+}
+
+
+.popular-item-sub {
+	color: hsl(0, 0%, 65%);
+}
+
+.popular-item-members-count {
+	font-size: 0.85rem;
+	color: hsl(0, 0%, 30%);
+}
+
+.popular-items .popular-extend {
+	font-size: 0.75rem;
+	margin: 2px;
+	width: 55px;
+	padding: 10px;
+	border-radius: 20px;
+	transition: background-color 0.25s ease;
+}
+
+.popular-items .popular-extend:hover {
+	background-color: hsl(0, 0%, 15%);
+}
+
+.popular-items .popular-extend:active {
+	background-color: hsl(0, 0%, 20%);
+}

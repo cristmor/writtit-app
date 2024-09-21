@@ -1,6 +1,7 @@
 import Content from './Content.jsx'
 import TopBar from './TopBar.jsx'
 import SideBar from './SideBar.jsx'
+import Popular from './Popular.jsx'
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <div className="h-container">
         <SideBar/>
         <Content/>
+        <Popular/>
       </div>
     </div>
   )
