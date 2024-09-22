@@ -7,8 +7,9 @@
 }
 
 .popular-title {
-	font-size: 0.8rem;
-	color: hsl(0, 0%, 60%);
+	font-size: 0.75rem;
+	font-weight: bold;
+	color: hsl(0, 0%, 65%);
 }
 
 .popular-items {
@@ -47,7 +48,7 @@
 
 .popular-item-members-count {
 	font-size: 0.85rem;
-	color: hsl(0, 0%, 30%);
+	color: hsl(0, 0%, 45%);
 }
 
 .popular-items .popular-extend {

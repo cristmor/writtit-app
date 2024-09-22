@@ -3,8 +3,9 @@
 	display: flex;
 	align-items: center;
 
-	height: 54px;
-	border: 1px solid hsl(0, 0%, 16%);
+	min-height: 54px;
+	max-height: 54px;
+	border: 1px solid hsl(0, 0%, 30%);
 	border-top: none;
 	border-right: none;
 	border-left: none;
@@ -27,6 +28,7 @@
 	padding: 0px 10px;
 	border-radius: 20px;
 	background-color: hsl(0, 0%, 10%);
+	z-index: 1000;
 }
 
 .search input {
@@ -57,7 +59,6 @@
 	margin: 0;
 	padding: 0;
 	background-color: hsl(0, 0%, 10%);
-	z-index: 1000;
 }
 
 .search-items hr {
@@ -100,6 +101,11 @@
 	cursor: pointer;
 }
 
+.top-bar #getApp {
+	font-weight: bold;
+}
+
 .top-bar #logIn {
+	font-weight: bold;
 	background-color: hsl(225, 100%, 40%);
 }

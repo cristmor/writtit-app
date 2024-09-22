@@ -1,13 +1,14 @@
 .drop-down-menu {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 
 .drop-down-items {
-	display: none;
+	display: flex;
 	flex-direction: column;
 }
 
 .drop-down-title {
-	color: hsl(0, 0%, 28%);
+	color: hsl(0, 0%, 45%);
 }
