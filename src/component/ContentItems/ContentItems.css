@@ -1,0 +1,96 @@
+.content-items {
+
+}
+
+.content-item {
+	margin: 0;
+	padding: 1px 10px;
+	border-radius: 12px;
+}
+
+.content-item:hover {
+	background-color: hsl(0, 0%, 8%);
+}
+
+.sub-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 8px 0px;
+}
+
+.sub-content a {
+	cursor: pointer;
+	color: hsl(0, 0%, 60%);
+	font-size: 0.8rem;
+	font-weight: bold;
+	margin: auto;
+	padding: 4px 8px;
+	border-radius: 10px;
+	background-color: hsl(0, 0%, 5%, 0%);
+	transition: 0.25s ease;
+}
+
+.sub-content .sub-id {
+	margin-left: 0;
+}
+
+.sub-content .sub-id:hover {
+	color: hsl(225, 50%, 60%);
+}
+
+.sub-content .join {
+	color: white;
+	margin-right: 5px;
+	background-color: hsl(225, 100%, 50%, 100%);
+}
+
+.sub-content .join:hover {
+	background-color: hsl(225, 100%, 60%, 100%);
+}
+
+.sub-content .extra {
+	margin: auto 0px;
+}
+
+
+.sub-content .extra:hover {
+	background-color: hsl(0, 0%, 15%);
+}
+
+.content-item .content-title{
+	font-size: 1.25rem;
+	font-weight: bold;
+	display: block;
+	padding: 8px 0px;
+	margin: 0;
+}
+
+.content-item .content-text {
+	font-size: 0.95rem;
+	display: block;
+}
+
+.content-item .interact-content {
+	font-size: 0.8rem;
+	font-weight: bold;
+	display: flex;
+	content-justify: center;
+	algin-items: center;
+	margin: 5px 0px;
+}
+
+.content-item .interact-content a {
+	padding: 10px;
+	padding: 6px 12px;
+	margin: 0;
+	margin-right: 10px;
+	border-radius: 15px;
+	background-color: hsl(0, 0%, 15%);
+}
+
+.content-item .interact-content a:hover {
+	cursor: pointer;
+	color: hsl(0, 0%, 80%);
+	background-color: hsl(0, 0%, 20%);
+}

@@ -1,4 +1,4 @@
-import DropDown from './DropDown.jsx'
+import DropDown from '../component/DropDown/DropDown.jsx'
 import './SideBar.css'
 
 function SideBar() {
